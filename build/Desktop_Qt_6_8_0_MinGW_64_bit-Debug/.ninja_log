@@ -1,0 +1,9 @@
+# ninja log v6
+9067	9681	7528234922016731	Hostel_Booking_System.exe	28a156f3cacc090c
+1924	16929	7528191697634428	CMakeFiles/Hostel_Booking_System.dir/main.cpp.obj	7fc0a13164ec9461
+73	1454	7528234663979468	C:/Users/HP/Desktop/Hostel Booking System/Hostel_Booking_System/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Hostel_Booking_System_autogen/mocs_compilation.cpp	504975d3ab4fd1d3
+73	1454	7528234663979468	C:/Users/HP/Desktop/Hostel Booking System/Hostel_Booking_System/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Hostel_Booking_System_autogen/timestamp	504975d3ab4fd1d3
+73	1454	7528234663979468	Hostel_Booking_System_autogen/timestamp	504975d3ab4fd1d3
+73	1454	7528234663979468	Hostel_Booking_System_autogen/mocs_compilation.cpp	504975d3ab4fd1d3
+1907	16901	7528191697428357	CMakeFiles/Hostel_Booking_System.dir/Hostel_Booking_System_autogen/mocs_compilation.cpp.obj	b8c343e0263cbf1a
+71	9065	7528234832027540	CMakeFiles/Hostel_Booking_System.dir/mainwindow.cpp.obj	a07feb8ad1604a10
