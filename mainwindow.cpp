@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "QString"
+#include "QMessageBox"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -18,32 +19,32 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Olympia_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget->setCurrentIndex(2);
 }
 
 
 void MainWindow::on_Dreamworld_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget->setCurrentIndex(2);
 }
 
 
 void MainWindow::on_Login_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(2);
+    ui->stackedWidget->setCurrentIndex(1);
 }
 
 
 void MainWindow::on_Register_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(4);
+    ui->stackedWidget->setCurrentIndex(5);
 }
 
 
 
 void MainWindow::on_Book_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(3);
+    ui->stackedWidget->setCurrentIndex(4);
     QString Room [5] = {"A1","B2","B3","B4","B5"};
     QString type[5]= {"Single","Single","Double","Double","Single"};//Dummy Variables
     QString Price[5]={"1000","1000","1000","2000","2000"};
@@ -73,5 +74,20 @@ void MainWindow::on_pushButton_8_clicked()
 void MainWindow::on_pushButton_6_clicked()
 {
     exit(0);
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MainWindow::on_pushButton_9_clicked()
+{
+    QMessageBox::information(this,"Bookingb","Please Proceed to send money of payment to \n this Number 0781826817 with this code 120219");
+    if(QMessageBox::Ok){
+        ui->stackedWidget->setCurrentIndex(3);
+    }
 }
 
