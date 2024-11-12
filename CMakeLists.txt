@@ -14,15 +14,16 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        Hostel_Booking.cpp
+        Hostel_Booking.h
+        Hostel_Booking.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Hostel_Booking_System
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Hostel_Booking_System APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

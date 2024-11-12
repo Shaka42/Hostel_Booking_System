@@ -23,7 +23,7 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>70</x>
       <y>0</y>
       <width>611</width>
       <height>271</height>
@@ -43,12 +43,12 @@
     <property name="currentIndex">
      <number>0</number>
     </property>
-    <widget class="QWidget" name="page">
+    <widget class="QWidget" name="HOSTELPAGE">
      <widget class="QPushButton" name="Olympia">
       <property name="geometry">
        <rect>
-        <x>180</x>
-        <y>130</y>
+        <x>190</x>
+        <y>100</y>
         <width>181</width>
         <height>51</height>
        </rect>
@@ -63,8 +63,8 @@
      <widget class="QPushButton" name="Dreamworld">
       <property name="geometry">
        <rect>
-        <x>180</x>
-        <y>190</y>
+        <x>190</x>
+        <y>170</y>
         <width>181</width>
         <height>51</height>
        </rect>
@@ -76,8 +76,8 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>50</y>
+        <x>150</x>
+        <y>20</y>
         <width>281</width>
         <height>61</height>
        </rect>
@@ -93,7 +93,7 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_6">
+    <widget class="QWidget" name="OlympiaLogin">
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
@@ -116,9 +116,9 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>130</x>
         <y>40</y>
-        <width>281</width>
+        <width>361</width>
         <height>16</height>
        </rect>
       </property>
@@ -129,7 +129,7 @@
        </font>
       </property>
       <property name="text">
-       <string>WELCOME TO LOGIN </string>
+       <string>WELCOME TO OLYMPIA HOSTEL</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_7">
@@ -209,13 +209,129 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_3">
+    <widget class="QWidget" name="Dreamworldlogin">
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>30</y>
+        <width>441</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>WELCOME TO DREAMWORLD HOSTEL</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_12">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>140</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>200</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>LOGIN</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_13">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>80</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>140</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string> Enter Password</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter Student Number</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="WelcomeHostel">
      <widget class="QLabel" name="WELCOME">
       <property name="geometry">
        <rect>
-        <x>170</x>
-        <y>30</y>
-        <width>221</width>
+        <x>50</x>
+        <y>20</y>
+        <width>521</width>
         <height>37</height>
        </rect>
       </property>
@@ -226,14 +342,14 @@
        </font>
       </property>
       <property name="text">
-       <string>WELCOME</string>
+       <string> WELCOME TO OLYMPIA HOSTEL</string>
       </property>
      </widget>
      <widget class="QPushButton" name="Login">
       <property name="geometry">
        <rect>
         <x>180</x>
-        <y>90</y>
+        <y>100</y>
         <width>161</width>
         <height>24</height>
        </rect>
@@ -246,6 +362,53 @@
       <property name="geometry">
        <rect>
         <x>180</x>
+        <y>170</y>
+        <width>161</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>REGISTER </string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="dream_world_welcome">
+     <widget class="QLabel" name="WELCOME_5">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>20</y>
+        <width>611</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string> WELCOME TO  DREAMWORLD HOSTEL</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Login_2">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>80</y>
+        <width>161</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>LOGIN</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Register_2">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
         <y>160</y>
         <width>161</width>
         <height>24</height>
@@ -256,14 +419,14 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_2">
+    <widget class="QWidget" name="OlympiaMenu">
      <widget class="QLabel" name="WELCOME_2">
       <property name="geometry">
        <rect>
-        <x>130</x>
-        <y>10</y>
-        <width>191</width>
-        <height>41</height>
+        <x>20</x>
+        <y>0</y>
+        <width>461</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -273,16 +436,16 @@
        </font>
       </property>
       <property name="text">
-       <string>        MENU </string>
+       <string>       OLYMPIA HOSTEL  MENU </string>
       </property>
      </widget>
      <widget class="QPushButton" name="Book">
       <property name="geometry">
        <rect>
         <x>140</x>
-        <y>60</y>
+        <y>40</y>
         <width>211</width>
-        <height>51</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
@@ -293,9 +456,9 @@
       <property name="geometry">
        <rect>
         <x>140</x>
-        <y>200</y>
+        <y>190</y>
         <width>211</width>
-        <height>51</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
@@ -306,17 +469,103 @@
       <property name="geometry">
        <rect>
         <x>140</x>
-        <y>130</y>
+        <y>90</y>
         <width>211</width>
-        <height>51</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="text">
        <string>CHECK ROOM</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>140</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>LOG OUT</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="page_4">
+    <widget class="QWidget" name="Dream_World_Menu">
+     <widget class="QLabel" name="WELCOME_6">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>551</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>       DREAM WORLD HOSTEL  MENU </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Book_2">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>60</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>BOOK ROOM</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>110</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CHECK ROOM</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>160</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>LOG OUT</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>210</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="TableforOlympia">
      <widget class="QLabel" name="WELCOME_3">
       <property name="geometry">
        <rect>
@@ -372,7 +621,7 @@
        <rect>
         <x>100</x>
         <y>10</y>
-        <width>331</width>
+        <width>321</width>
         <height>171</height>
        </rect>
       </property>
@@ -407,13 +656,104 @@
       </column>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_5">
+    <widget class="QWidget" name="Dream_worldmenu">
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>331</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>true</bool>
+      </property>
+      <property name="rowCount">
+       <number>5</number>
+      </property>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>Room</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Price</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>210</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>BOOK</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>220</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="WELCOME_7">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>210</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>11</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>   Enter Room Number:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Sign_up_for_dream_World">
      <widget class="QLabel" name="WELCOME_4">
       <property name="geometry">
        <rect>
-        <x>90</x>
-        <y>0</y>
-        <width>361</width>
+        <x>0</x>
+        <y>10</y>
+        <width>601</width>
         <height>41</height>
        </rect>
       </property>
@@ -424,7 +764,7 @@
        </font>
       </property>
       <property name="text">
-       <string>WELCOME TO HOSTEL</string>
+       <string>WELCOME TO DREAM WORLD HOSTEL</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_2">
@@ -608,6 +948,210 @@
       </property>
       <property name="horizontalScrollBarPolicy">
        <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="olympia_sign_up">
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter Student Number</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>170</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter Password</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_8">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>130</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semilight</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>90</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter Student Name</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_9">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>170</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semilight</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_5">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>50</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>220</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SIGN UP</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_7">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>90</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="WELCOME_8">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>531</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>WELCOME TO OLYMPIA HOSTEL</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>130</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter Telephone Number</string>
       </property>
      </widget>
     </widget>

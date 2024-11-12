@@ -1,5 +1,5 @@
-C:/Users/HP/Desktop/Hostel\ Booking\ System/Hostel_Booking_System/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/Hostel_Booking_System_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/HP/Desktop/Hostel\ Booking\ System/Hostel_Booking_System/mainwindow.h \
-  C:/Users/HP/Desktop/Hostel\ Booking\ System/Hostel_Booking_System/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/Hostel_Booking_System_autogen/moc_predefs.h \
+C:/Users/HP/Desktop/Hostel\ Booking\ System/Hostel_Booking_System/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Hostel_Booking_System_autogen/EWIEGA46WW/moc_Hostel_Booking.cpp: C:/Users/HP/Desktop/Hostel\ Booking\ System/Hostel_Booking_System/Hostel_Booking.h \
+  C:/Users/HP/Desktop/Hostel\ Booking\ System/Hostel_Booking_System/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Hostel_Booking_System_autogen/moc_predefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \

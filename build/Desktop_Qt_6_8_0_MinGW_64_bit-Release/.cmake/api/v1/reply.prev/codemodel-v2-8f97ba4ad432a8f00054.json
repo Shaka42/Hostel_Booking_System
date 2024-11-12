@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-119d6072122351b43e88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Hostel_Booking_System",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Hostel_Booking_System::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hostel_Booking_System-Release-597dbf2f1ae993a5fb62.json",
+					"name" : "Hostel_Booking_System",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Hostel_Booking_System_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hostel_Booking_System_autogen-Release-fb1a1edea9cf2c152f0c.json",
+					"name" : "Hostel_Booking_System_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Hostel_Booking_System_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Hostel_Booking_System_autogen_timestamp_deps-Release-77364739546b3e200ba6.json",
+					"name" : "Hostel_Booking_System_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/HP/Desktop/Hostel Booking System/Hostel_Booking_System/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release",
+		"source" : "C:/Users/HP/Desktop/Hostel Booking System/Hostel_Booking_System"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

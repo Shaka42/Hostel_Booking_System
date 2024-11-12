@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-e43f36d08bfd48b23eaf.json",
+					"jsonFile" : "directory-.-Release-119d6072122351b43e88.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Hostel_Booking_System::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Hostel_Booking_System-Release-22bf66ba934255c7a01a.json",
+					"jsonFile" : "target-Hostel_Booking_System-Release-85186dd5df41fb13262c.json",
 					"name" : "Hostel_Booking_System",
 					"projectIndex" : 0
 				},
